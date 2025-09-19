@@ -25,7 +25,7 @@ public class javaday12 {
         System.out.print("Masukkan Ukuran Celana: ");
         double ukuranCelana = scanner.nextDouble();
 
-        System.out.print("Apakah Anda Mahasiswa? (true/false): ");
+        System.out.print("Apakah Kamu Mahasiswa? (true/false): ");
         boolean Mahasiswa = scanner.nextBoolean();
 
         System.out.print("Masukkan Inisial Nama: ");
