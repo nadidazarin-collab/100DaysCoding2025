@@ -1,35 +1,43 @@
+package javaapplication13;
 import java.util.Scanner;
-
-public class javaday12 {
+public class JavaApplication13 {
     public static void main(String[] args) {
-        Scanner biodata = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Masukkan Nama: ");
         String namaLengkap = scanner.nextLine();
 
         System.out.print("Masukkan Umur (tahun): ");
         byte umur = scanner.nextByte();
+        scanner.nextLine();
 
         System.out.print("Masukkan Tinggi Badan (cm): ");
         short tinggiBadan = scanner.nextShort();
+        scanner.nextLine();
 
         System.out.print("Masukkan Berat Badan (kg): ");
         int beratBadan = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Masukkan No. HP: ");
         long noHp = scanner.nextLong();
+        scanner.nextLine();
 
         System.out.print("Masukkan Ukuran Sepatu: ");
         float ukuranSepatu = scanner.nextFloat();
+        scanner.nextLine();
 
         System.out.print("Masukkan Ukuran Celana: ");
         double ukuranCelana = scanner.nextDouble();
+        scanner.nextLine();
 
         System.out.print("Apakah Kamu Mahasiswa? (true/false): ");
         boolean Mahasiswa = scanner.nextBoolean();
+        scanner.nextLine();
 
         System.out.print("Masukkan Inisial Nama: ");
         char inisialNama = scanner.next().charAt(0);
+        scanner.nextLine();
 
         // Menampilkan biodata
         System.out.println("\nBiodata:");
